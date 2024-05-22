@@ -75,37 +75,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
              Log.d("TAG BackpressCount","Backpresscount = $backPressCount")
 
 
-
-
-
-
-
-
-
-
-
          }
 
 
 
-//         val backStackListener = object : NavController.OnDestinationChangedListener {
-//             private var backPressCount = 0  // Track the number of back button presses
 //
-//             override fun onDestinationChanged(controller: NavController, destination: NavDestination, arguments: Bundle?) {
-//                 backPressCount = if (destination.id == R.id.homeFragment) {
-//                     // Reset back press count when reaching home fragment
-//                     0
-//                 } else {
-//                     backPressCount + 1  // Increment count on non-home destinations
-//                 }
-//
-//                 if (backPressCount > 6) {
-//                     // Navigate to home fragment if back press count exceeds 6
-//                     controller.popBackStack(R.id.homeFragment, inclusive = true)
-//                     backPressCount = 0  // Reset count after forced navigation
-//                 }
-//             }
-//         }
 
          // set the titles of a fragments using lables in nav graph
 
